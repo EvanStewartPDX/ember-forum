@@ -9,9 +9,9 @@
 
   <label class="info">Additional Info:</label>
   {{input value=info id="info"}}
-  <button class="btn" {{action "updateQuestion" question}}>Save Updates</button>
+  <button class="btn btn-primary" {{action "updateQuestion" question}}>Save Updates</button>
 </form>
 {{else}}
-<button class="btn" {{action "showUpdateQuestion"}}>Update Question</button>
+<button class="btn btn-primary" {{action "showUpdateQuestion"}}>Update Question</button>
 
 {{/if}}

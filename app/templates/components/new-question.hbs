@@ -1,3 +1,4 @@
+<div class="well" id="newquestion">
 {{#if showQuestionForm}}
   <h1>Add a new question</h1>
   <form class="form-group">
@@ -10,7 +11,9 @@
     <label for="info">Additional Info:</label>
     {{input value=info id="info"}}
   </form>
-  <button class="btn" {{ action "saveNewQuestion"}}>Save Question </button>
+  <button class="btn btn-primary" {{ action "saveNewQuestion"}}>Save Question </button>
+
 {{else}}
-  <button class = "btn" {{ action "showQuestionForm"}}>Add Question</button>
+  <button class ="btn btn-primary" {{ action "showQuestionForm"}}>Add Question</button>
 {{/if}}
+</div>

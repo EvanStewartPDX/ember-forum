@@ -1,0 +1,62 @@
+body {
+  background-color: #99ffcc;
+}
+
+.jumbotron {
+    background-image: url("http://previews.123rf.com/images/nito500/nito5001105/nito500110500141/9550268-question-marks-of-different-colors-drawn-on-a-white-background-Stock-Photo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.jumbotron p {
+  font-size: 7em;
+  font-family: 'Covered By Your Grace', cursive;
+  color: white;
+  text-align: center;
+  text-shadow:  3px 3px 9px black;
+  text-decoration: none;
+
+}
+
+.panel {
+  opacity: .9;
+  background-color: white;
+  padding: 5px;
+  h1 {
+  color: black;
+  font-family: 'Coming Soon', cursive;
+  text-shadow: 2px 2px 8px white;
+  text-align: center;
+  text-decoration: none;
+}
+h2 {
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Coming Soon', cursive;
+}
+h3 {
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Coming Soon', cursive;
+}
+h4 {
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Coming Soon', cursive;
+}
+}
+
+#newform {
+  background-color: purple;
+}
+
+.panel btn {
+  display: inline-block;
+}
+
+.index:hover {
+    box-shadow: inset 1px 1px 2px 9px rgba(51, 102, 255, 0.8);
+}
+.answerbutton {
+  text-align: center;
+}

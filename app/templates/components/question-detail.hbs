@@ -1,18 +1,23 @@
 
-  <div class='well'>
-  <h1>{{question.content}}</h1>
-  <h3> by {{question.author}}</h3><br />
-  <h2>Additional Info:</h2>
-  <h3>{{question.info}}</h3>
+  <div class='panel panel-default'>
+    <h1>{{question.content}}</h1>
+    <h4> by {{question.author}}</h4><br />
+    <h3>Additional Info:</h3>
+    <h4>{{question.info}}</h4>
 
+    <div class="row">
+      <div class="col-md-2">
+        {{update-question question=question updateQuestion="updateQuestion"}}
+      </div>
+      <div class="col-md-3">
+        <button class="btn btn-danger" {{action "deleteQuestion" question}}>Delete Question</button>
+      </div>
 
-  {{update-question question=question updateQuestion="updateQuestion"}}
-
-  <button class="btn" {{action "deleteQuestion" question}}>Delete Question</button>
+    </div>
   </div>
 
-  <div class='well'>
-    <h2>Answers</h2>
+  <div class='panel panel-default'>
+    <h2><u>Answers</u></h2>
     <ul>
     {{#each question.answers as |answer|}}
       {{answer-tile answer=answer destroyAnswer="destroyAnswer"}}

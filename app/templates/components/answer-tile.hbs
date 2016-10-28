@@ -1,7 +1,8 @@
 
-  <li>
-  {{answer.comment}} by
-  {{answer.username}}
-  </li>
 
-  <button {{action 'deleteAnswer' answer}}> Delete Answer</button>
+  <h2>{{answer.comment}}</h2> <br />
+  <h4>written by {{answer.username}}</h4>
+  <br />
+  <div class="answerbutton">
+    <button class="btn btn-danger"{{action 'deleteAnswer' answer}}> Delete Answer</button>
+  </div>

@@ -1,13 +1,14 @@
 <h1>Give an answer</h1>
 <div class="container">
   <form class="form-group">
-
     <label for="comment">New Answer</label>
-    {{textarea value=comment id="comment"}}
+    {{textarea value=comment id="comment" cols="80" rows="6" required="Field Required"}}
 
+    <br />
     <label for="username">Name</label>
-    {{input value=username id="username"}}
+    {{input value=username id="username" required="Field Required"}}
+    <br />
 
-    <button class="btn" {{ action "saveAnswer" }}>Save Answer</button>
+    <button class="btn btn-warning" {{ action "saveAnswer" }}>Save Answer</button>
   </form>
 </div>
