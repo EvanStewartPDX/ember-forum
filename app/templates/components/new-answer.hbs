@@ -1,0 +1,10 @@
+<div class="container">
+  <form class="form-group">
+    <label for="comment">Answer</label>
+    {{input value=comment id='comment'}}
+
+    <label for "commenter">Name</label>
+    {{input value=commenter id='commenter'}}
+    <button class="btn" {{ action "saveComment"}}>Save Anwer</button>
+  </form>
+</div>
