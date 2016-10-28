@@ -1,0 +1,15 @@
+models-
+questions
+answers
+
+components-
+new question
+question tile
+update question
+question detail
+new answer
+answer tile
+
+routes-
+index
+question
