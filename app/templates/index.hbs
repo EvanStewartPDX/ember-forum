@@ -1,3 +1,5 @@
-{{new-question saveNewQuestion="saveNewQuestion"}}
+{{#each model as |question|}}
+  {{question-tile queston=question}}
+  {{/each}}
 
-{{question-tile}}
+{{new-question model=question saveNewQuestion="saveNewQuestion"}}

@@ -1,10 +1,10 @@
 import Ember from 'ember';
 
 export default Ember.Component.extend({
-  showQuestionForm: false;
+  showQuestionForm: false,
   actions: {
     showQuestionForm() {
-      this.set('addNewQuestion', true);
+      this.set('showQuestionForm', true);
     },
     saveNewQuestion() {
       var params = {
