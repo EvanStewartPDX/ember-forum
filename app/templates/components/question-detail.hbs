@@ -1,14 +1,18 @@
-<div class="container">
+
+  <div class='well'>
   <h1>{{question.content}}</h1>
   <h3> by {{question.author}}</h3><br />
   <h2>Additional Info:</h2>
   <h3>{{question.info}}</h3>
-</div>
 
-{{update-question question=question updateQuestion="updateQuestion"}}
 
-<button class="btn" {{action "deleteQuestion" question}}>Delete Question</button>
+  {{update-question question=question updateQuestion="updateQuestion"}}
 
-{{#each question.answers as |answer|}}
-  {{answer-tile answer=answer }}
-{{/each}}
+  <button class="btn" {{action "deleteQuestion" question}}>Delete Question</button>
+  </div>
+
+  <ul>
+  {{#each question.answers as |answer|}}
+    {{answer-tile answer=answer destroyComment="destroyComment"}}
+  {{/each}}
+  </ul>
