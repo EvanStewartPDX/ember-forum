@@ -1,10 +1,13 @@
+<h1>Answers</h1>
 <div class="container">
   <form class="form-group">
-    <label for="comment">Answer</label>
-    {{input value=comment id='comment'}}
 
-    <label for "commenter">Name</label>
-    {{input value=commenter id='commenter'}}
-    <button class="btn" {{ action "saveComment"}}>Save Anwer</button>
+    <label for="comment">New Answer</label>
+    {{textarea value=comment id="comment"}}
+
+    <label for="username">Name</label>
+    {{input value=username id="username"}}
+
+    <button class="btn" {{ action "saveComment" }}>Save Anwer</button>
   </form>
 </div>

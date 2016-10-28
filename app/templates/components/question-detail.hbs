@@ -6,3 +6,9 @@
 </div>
 
 {{update-question question=question updateQuestion="updateQuestion"}}
+
+<button class="btn" {{action "deleteQuestion" question}}>Delete Question</button>
+
+{{#each question.answers as |answer|}}
+  {{answer-tile answer=answer }}
+{{/each}}

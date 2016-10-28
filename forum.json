@@ -9,6 +9,9 @@
   }],
   "answers": [{
     "comment": "test",
-    "commenter": "test"
+    "username": "test"
+  }, {
+    "comment": "test1",
+    "username": "test1commenter"
     }]
 }
