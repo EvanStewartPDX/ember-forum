@@ -21,8 +21,8 @@ author
 additional notes
 
 *answers*
-content
-author
+comment
+commenter
 
 Include a header and/or navbar that appears on all pages containing the name of your site and a link to the home page.
 List all questions on the homepage, with only the question and the name of the author showing.

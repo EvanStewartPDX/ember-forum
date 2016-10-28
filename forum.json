@@ -1,4 +1,14 @@
 { "questions" : [{
-  
-  }]
+  "content": "Why is the sky blue?",
+  "author": "little kid",
+  "info": "i've never actually seen the sky"
+}, {
+  "content": "Who discovered helium?",
+  "author": "bart simpson",
+  "info": "I heard some guy mention it."
+  }],
+  "answers": [{
+    "comment": "test",
+    "commenter": "test"
+    }]
 }
