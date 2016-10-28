@@ -13,7 +13,7 @@ module.exports = function(environment) {
       }
     },
 
-    firebase = {
+    firebase: {
     apiKey: "AIzaSyArTZxfV7gydn0bkW3iyycsRjlSs7bpJA8",
     authDomain: "forum-80b8a.firebaseapp.com",
     databaseURL: "https://forum-80b8a.firebaseio.com",
