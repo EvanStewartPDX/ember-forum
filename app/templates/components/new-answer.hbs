@@ -2,11 +2,11 @@
 <div class="container">
   <form class="form-group">
     <label for="comment">New Answer</label>
-    {{textarea value=comment id="comment" cols="80" rows="6" required="Field Required"}}
+    {{textarea value=comment id="comment" cols="80" rows="6" required=""}}
 
     <br />
     <label for="username">Name</label>
-    {{input value=username id="username" required="Field Required"}}
+    {{input type=required value=username id="username" required=""}}
     <br />
 
     <button class="btn btn-warning" {{ action "saveAnswer" }}>Save Answer</button>

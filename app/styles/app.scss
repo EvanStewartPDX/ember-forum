@@ -1,5 +1,8 @@
 body {
-  background-color: #99ffcc;
+  background-image: url(http://fatherleo.com/wp-content/uploads/2015/04/books-new.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
 }
 
 .jumbotron {
@@ -19,8 +22,8 @@ body {
 }
 
 .panel {
-  opacity: .9;
-  background-color: white;
+  // opacity: .9;
+  background-color: skyblue;
   padding: 5px;
   h1 {
   color: black;
@@ -46,8 +49,16 @@ h4 {
 }
 }
 
-#newform {
-  background-color: purple;
+#newquestion {
+  background-color: skyblue;
+
+}
+
+.answerpanel {
+  // opacity: .9;
+  background-color: #ffffb3;
+  padding: 5px;
+
 }
 
 .panel btn {
@@ -59,4 +70,15 @@ h4 {
 }
 .answerbutton {
   text-align: center;
+}
+
+.footer {
+  font-size: 2em;
+  font-family: 'Coming Soon', cursive;
+  background-color: purple;
+  // opacity: 1;
+  text-align: center;
+p {
+  color: yellow;
+}
 }
