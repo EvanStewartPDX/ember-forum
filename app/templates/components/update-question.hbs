@@ -1,5 +1,3 @@
-{{question-detail question=model}}
-
 {{#if showUpdateQuestion}}
 <h2>Update Question</h2>
 <form class="form-group">
@@ -12,5 +10,6 @@
   <label class="info">Additional Info:</label>
   {{input value=info id="info"}}
 </form>
+<button class="btn" {{action save}}
 {{/if}}
 <button class="btn" {{action "updateQuestion" question}}>Update Question</button>
